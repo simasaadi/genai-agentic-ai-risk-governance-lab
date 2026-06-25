@@ -1,0 +1,11 @@
+use_case_id,use_case_name,genai_type,agentic_ai_flag,business_function,user_group,data_sensitivity,external_tool_access,memory_enabled,customer_facing,vendor_involved,risk_tier,approval_status
+UC-001,Customer support chatbot,Retrieval-augmented customer chatbot,No,Digital banking,Customers,High,Policy database; CRM lookup,No,Yes,Yes,High,Controlled pilot
+UC-002,Internal policy assistant,Retrieval-augmented internal assistant,No,Compliance and policy,Employees,Medium,Policy database; document search,No,No,Yes,Medium,Approved with guardrails
+UC-003,Complaint triage agent,Agentic workflow with drafting and routing,Yes,Client care,Complaint analysts,High,Customer complaint system; CRM lookup; email drafting,Restricted,No,Yes,Critical,Risk review required
+UC-004,AI meeting summarizer,Summarization assistant,No,Operations,Employees,Medium,Meeting transcript repository,No,No,Yes,Medium,Approved with conditions
+UC-005,AI coding assistant,Code generation assistant,No,Technology,Developers,Confidential,Code repository context; package documentation,No,No,Yes,High,Approved with monitoring
+UC-006,AI document extraction tool,Document extraction and summarization,No,Operations,Operations analysts,High,Document repository; policy database,No,No,Yes,Medium,Approved with vendor monitoring
+UC-007,AI email drafting assistant,Drafting assistant,No,Relationship management,Employees,High,CRM summary; email drafting,No,Yes,Yes,High,Conditional approval
+UC-008,Collections support assistant,Human-in-the-loop support assistant,No,Collections,Collections agents,High,Payment status lookup; CRM lookup; policy database,No,Yes,Yes,High,Pending conduct risk review
+UC-009,Vendor contract review assistant,Contract review assistant,No,Procurement and legal,Procurement and legal reviewers,Confidential,Contract repository; vendor risk database,No,No,Yes,Medium,Approved with legal review
+UC-010,Fraud investigation summarization assistant,Case summarization assistant,No,Fraud operations,Fraud investigators,High,Fraud case system; transaction summary; policy database,No,No,No,High,Approved with monitoring

@@ -1,0 +1,7 @@
+escalation_id,use_case_id,escalation_trigger,user_request_type,severity,escalated_to,decision,resolution_time,final_status
+ESC-001,UC-003,Complaint mentions financial harm,Complaint classification,High,Complaint risk reviewer,Escalate complaint and require manual review,2 hours,Closed
+ESC-002,UC-003,Agent attempted external email action,Customer communication,Critical,AI risk committee delegate,Block send action pending approval,1 hour,Closed
+ESC-003,UC-005,Secret token entered into prompt,Coding support,High,Security operations,Rotate token and update DLP control,4 hours,Open
+ESC-004,UC-007,Draft implied customer outcome commitment,Email drafting,High,Business risk owner,Require human rewrite and guardrail update,1 day,Open
+ESC-005,UC-008,Customer hardship-related request,Collections support,High,Conduct risk reviewer,Route to trained agent and suppress recommendation,3 hours,Closed
+ESC-006,UC-010,Unsupported fraud motive inference,Investigation summary,High,Fraud operations reviewer,Remove unsupported inference and retest grounding,1 day,Open

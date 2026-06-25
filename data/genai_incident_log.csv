@@ -1,0 +1,4 @@
+incident_id,use_case_id,incident_type,severity,detected_by,containment_action,root_cause,customer_impact,status,closure_evidence
+INC-001,UC-005,Sensitive technical data exposure,High,DLP alert,Output suppressed and token rotation initiated,Secret redaction applied after model response rather than before generation,No,Open,Pending retest
+INC-002,UC-010,Unsupported inference,High,QA sampling,Summary removed from analyst queue pending review,Grounding rule did not block motive inference,No,Open,Pending source-grounding update
+INC-003,UC-003,Unauthorized tool attempt,Critical,Tool-call audit log,External send action blocked,Complaint workflow attempted action before approval metadata was present,No,Closed,Approval gate verified in retest

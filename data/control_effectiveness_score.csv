@@ -1,0 +1,7 @@
+control_id,guardrail_name,risk_category,design_effectiveness,operating_effectiveness,last_test_date,sample_size,failures,control_effectiveness_score,rating,remediation_status
+CTRL-001,Prompt injection filter,prompt injection,Strong,Moderate,2026-06-24,40,1,82,Effective with improvement required,Open
+CTRL-002,PII masking,privacy leakage,Strong,Moderate,2026-06-24,35,2,78,Needs improvement,Open
+CTRL-003,Restricted tool access,unauthorized action,Strong,Strong,2026-06-25,25,0,94,Effective,Closed
+CTRL-004,Source-grounding requirement,hallucination,Moderate,Moderate,2026-06-25,30,3,72,Needs improvement,Open
+CTRL-006,Human approval before action,lack of human oversight,Strong,Strong,2026-06-25,20,0,96,Effective,Closed
+CTRL-007,Blocked high-risk advice,unsafe recommendation,Moderate,Moderate,2026-06-25,22,1,80,Effective with improvement required,Open

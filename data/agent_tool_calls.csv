@@ -1,0 +1,11 @@
+event_id,use_case_id,agent_action,tool_accessed,data_accessed,approval_required,approval_status,action_completed,risk_flag,escalation_required,timestamp
+EVT-001,UC-003,Classify complaint severity,Customer complaint system,Complaint category and customer statement,No,Not required,Yes,No,No,2026-06-25T09:05:00
+EVT-002,UC-003,Draft complaint response,Email drafting,Complaint summary and policy snippet,Yes,Approved,Yes,No,No,2026-06-25T09:12:00
+EVT-003,UC-003,Attempt to send complaint response,Email drafting,Customer email address,Yes,Rejected,No,Yes,Yes,2026-06-25T09:18:00
+EVT-004,UC-001,Retrieve product policy answer,Policy database,Approved help article,No,Not required,Yes,No,No,2026-06-25T10:04:00
+EVT-005,UC-001,Customer profile lookup,CRM lookup,Customer profile metadata,Yes,Pending,No,Yes,Yes,2026-06-25T10:07:00
+EVT-006,UC-008,Check payment status,Payment status lookup,Synthetic delinquency status,Yes,Approved,Yes,No,No,2026-06-25T11:21:00
+EVT-007,UC-008,Recommend payment arrangement,Policy database,Collections policy,Yes,Rejected,No,Yes,Yes,2026-06-25T11:28:00
+EVT-008,UC-006,Extract document field,Document search,Synthetic customer document,No,Not required,Yes,No,No,2026-06-25T12:05:00
+EVT-009,UC-009,Search vendor contract clause,Document search,Vendor contract terms,No,Not required,Yes,No,No,2026-06-25T13:14:00
+EVT-010,UC-010,Summarize investigation file,Fraud case system,Synthetic investigation notes,Yes,Approved,Yes,No,No,2026-06-25T14:33:00

@@ -1,0 +1,5 @@
+decision_id,use_case_id,risk_id,residual_risk,decision,approver_role,conditions,review_date,expiry_date
+DEC-001,UC-001,RISK-001,Medium,Accept with monitoring,Digital risk owner,Weekly unsupported response sampling during controlled pilot,2026-06-20,2026-09-20
+DEC-002,UC-003,RISK-003,High,Escalate,AI risk committee delegate,No external action until approval workflow and tool permissions pass retest,2026-06-22,2026-07-22
+DEC-003,UC-005,RISK-006,High,Mitigate,Technology risk owner,Secret redaction must pass retest before expanded rollout,2026-06-24,2026-07-24
+DEC-004,UC-008,RISK-009,High,Escalate,Conduct risk reviewer,Assistant limited to policy retrieval; no treatment recommendation,2026-06-25,2026-07-25

@@ -1,0 +1,11 @@
+use_case_id,monitoring_metric,threshold,owner,monitoring_frequency,alert_trigger,escalation_path,status
+UC-001,hallucination rate,Less than 2 percent unsupported responses in weekly sample,AI product owner,Weekly during pilot,Unsupported response rate above threshold,AI product owner -> Digital risk owner -> AI risk committee,Active
+UC-001,PII leakage rate,Zero confirmed leakage events,Privacy reviewer,Continuous plus weekly sample,Any confirmed leakage,Privacy reviewer -> Privacy incident response,Active
+UC-003,prompt injection failure rate,Zero critical prompt injection failures,AI security reviewer,Weekly during pilot,Any critical prompt injection bypass,AI security reviewer -> AI risk committee,Pending remediation
+UC-003,unauthorized tool attempt rate,Zero completed unauthorized tool actions,Technology owner,Continuous,Any completed unauthorized action,Technology owner -> Incident response -> AI risk committee,Active
+UC-004,human escalation rate,Escalation required for all uncertain or decision-sensitive summaries,Operations owner,Monthly,Summary marked as decision without source evidence,Operations owner -> Operational risk,Active
+UC-005,blocked prompt rate,All secret or credential prompts blocked,Technology risk owner,Continuous,Credential content appears in output,Technology risk owner -> Security operations,Pending remediation
+UC-007,unsupported response rate,Zero unauthorized customer commitment language in sample,Business risk owner,Weekly,Commitment wording detected without approval,Business risk owner -> Conduct risk reviewer,Active
+UC-008,user complaint rate,No increase in complaints linked to assistant output,Conduct risk reviewer,Monthly,Complaint trend or customer harm indicator detected,Conduct risk reviewer -> AI risk committee,Pending approval
+UC-009,third-party control evidence status,No expired vendor AI evidence,Third-party risk reviewer,Quarterly,Vendor evidence missing or expired,Third-party risk reviewer -> Procurement risk forum,Active
+UC-010,hallucination rate,Zero unsupported investigation conclusions,Fraud operations reviewer,Monthly,"Unsupported motive, intent, or conclusion detected",Fraud operations reviewer -> Operational risk,Pending remediation

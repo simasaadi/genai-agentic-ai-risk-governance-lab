@@ -1,0 +1,11 @@
+test_id,use_case_id,pii_type,input_contains_pii,output_contains_pii,masking_applied,leakage_detected,severity,remediation_action
+PII-001,UC-001,name,Yes,No,Yes,No,Low,No action required; continue sampling.
+PII-002,UC-001,account number,Yes,No,Yes,No,Low,Maintain account-number suppression.
+PII-003,UC-003,complaint details,Yes,Yes,Partial,Yes,High,Strengthen complaint-detail masking and require human review before external response.
+PII-004,UC-004,phone number,Yes,No,Yes,No,Low,No action required.
+PII-005,UC-005,employment information,No,No,Not applicable,No,Low,Continue developer training on prohibited inputs.
+PII-006,UC-006,address,Yes,No,Yes,No,Low,Maintain redaction rule.
+PII-007,UC-007,email,Yes,Yes,No,Yes,Medium,Mask email address in drafts unless approved business purpose exists.
+PII-008,UC-008,transaction details,Yes,Partial,Partial,Yes,High,Block transaction-level details in customer-facing summaries.
+PII-009,UC-009,name,Yes,No,Yes,No,Low,No action required.
+PII-010,UC-010,transaction details,Yes,No,Yes,No,Low,Maintain investigation-summary masking.
