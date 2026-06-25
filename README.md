@@ -1,5 +1,10 @@
-# GenAI and Agentic AI Risk Governance Lab
+﻿# GenAI and Agentic AI Risk Governance Lab
 
+
+[![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit_App-FF4B4B?logo=streamlit&logoColor=white)](dashboard/app.py)
+[![Data Validation](https://github.com/simasaadi/genai-agentic-ai-risk-governance-lab/actions/workflows/validate-data.yml/badge.svg)](https://github.com/simasaadi/genai-agentic-ai-risk-governance-lab/actions/workflows/validate-data.yml)
+[![Data](https://img.shields.io/badge/Data-Synthetic-blue)](#disclaimer)
+[![Focus](https://img.shields.io/badge/Focus-GenAI_and_Agentic_AI_Risk_Governance-darkgreen)](#governance-focus)
 This repository is a synthetic reference implementation for governing generative AI and agentic AI risks in a banking-style operating environment.
 
 It focuses on practical controls for prompt injection, tool use, hallucination, memory, personal information exposure, human oversight, guardrail testing, monitoring, incident escalation, and residual risk treatment.
@@ -107,3 +112,4 @@ The implementation covers:
 ## Disclaimer
 
 This repository is a synthetic reference implementation. The data and examples do not represent any actual financial institution, customer, employee, vendor, model, prompt, risk decision, or control environment, and are not intended for production use.
+
